@@ -68,7 +68,9 @@ export const styles = StyleSheet.create({
   inputsWrapper: {
     flex: 1,
     flexDirection: isRtl ? 'row-reverse' : 'row',
-    gap: 5,
+    // gap: 5,
+    marginVertical: 5,
+    marginHorizontal: 5,
   },
   inputsContainer: {
     flex: 1,
